@@ -6,5 +6,5 @@ mongoose.connect(db.url)
     .then(() => {
         console.log("Database connection done")
     })
-    .catch((err) => { console.log('some err occured')});
+    .catch((err) => { console.log('some err occured', err)});
 // console.log('Database connection done')

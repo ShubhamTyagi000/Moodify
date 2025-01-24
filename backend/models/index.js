@@ -5,9 +5,12 @@
 'use strict';
 
 const fs = require('fs');
+const path = require('path');
 
 fs.readdirSync(__dirname).forEach(file => {
     if (/(.*)\.(js$)/.test(file)) {
-        require(__dirname + '/' + file);
+        require(path.join(__dirname, file))
+        // console.log(__dirname , __filename)
+        // require(__dirname + '/' + file);
     }
 })

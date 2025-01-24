@@ -6,7 +6,8 @@ module.exports = {
         port: PORT
     },
   db: {
-    url: "mongodb+srv://Shubham_Tyagi:up17L4582@cluster0.dtrkr.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
+    url: "mongodb://localhost/Moodify",
+    // url: "mongodb+srv://Shubham_Tyagi:up17L4582@cluster0.dtrkr.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
     // options: {
     //   useNewUrlParser: true,
     //   useUnifiedTopology: true,
